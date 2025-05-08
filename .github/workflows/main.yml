@@ -13,8 +13,8 @@ jobs:
         steps: 
           - name: Failed step
             run: |
-              echo "I'll fail"
-              exit 1
+              echo "I'll succeed"
+              exit 0
           - name: Say goobye
             run: echo "goodbye"
            
